@@ -1,7 +1,3 @@
-## Demonstration Video Format
-
-The demonstration video was recorded in a .mp4 file.
-
 ## Execution Instructions
 
 ### Operating System Compatibility
