@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fierydragons.controllers.HomeController">
+   <children>
+      <ImageView fitHeight="164.0" fitWidth="462.0" layoutX="443.0" layoutY="587.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/buttons/start_button.png" />
+         </image>
+      </ImageView>
+
+     <Button layoutX="460.0" layoutY="595.0" onAction="#onStartButtonClick" opacity="0.0" prefHeight="122.0" prefWidth="427.0" text="START GAME">
+         <font>
+            <Font name="Arial" size="19.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="622.0" fitWidth="602.0" layoutX="384.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/icons/game_logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="145.0" fitWidth="361.0" layoutX="2.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/buttons/rules_button.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="17.0" layoutY="32.0" onAction="#onRulesButtonClick" opacity="0.0" prefHeight="109.0" prefWidth="327.0" text="RULES">
+         <font>
+            <Font name="Arial" size="19.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="171.0" fitWidth="418.0" layoutX="916.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/buttons/load_game.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="929.0" layoutY="41.0" mnemonicParsing="false" onAction="#onLoadGameButtonClick" opacity="0.0" prefHeight="109.0" prefWidth="389.0" text="load GAME" />
+   </children>
+</Pane>
